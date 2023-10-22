@@ -97,10 +97,7 @@ void ListenWebServer() {
       if (temp.length() != 32) {
         Sprintln(F("API Key not valid"));
       } else {
-        Sprint(F("Original: "));
-        Sprint(temp);
-        Sprintln(F(";"));
-        temp.toCharArray(config.apikey, 32 + 1);
+        temp.toCharArray(config.apikey, 33);
         saveConfiguration();
         Sprint(F("New API key: "));
         Sprintln(config.apikey);

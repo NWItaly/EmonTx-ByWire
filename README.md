@@ -31,7 +31,7 @@ Lo scopo di questo progetto è utilizzare la rete ethernet al posto del Wifi (ES
     Dopo 10 tentativi si riavvia per caricare le impstazioni dalla EPROM.
 1. **Lampeggio 4 volte**: Errore connessione al server.
 1. **Lampeggio 5 volte**: Errore connessione LAN.
-    Dopo 10 tentativi (10 min circa) si riavvia per cercare di riconnettersi alla LAN.
+    Dopo 10 tentativi si riavvia per cercare di riconnettersi alla LAN.
 
 ### Invio configurazione
 
@@ -56,5 +56,5 @@ Esempi:
 
 ## Link esterni:
 
-  Arduino: https://www.arduino.cc/ 
+  Arduino: https://www.arduino.cc/  
   OpenEnergyMonitor (Emoncms): https://openenergymonitor.org/
