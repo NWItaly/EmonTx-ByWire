@@ -2,10 +2,6 @@
 #include <DallasTemperature.h>
 #include <EmonLib.h>
 #include <OneWire.h>
-#include <avr/pgmspace.h>
-#include <SPI.h>
-#include <avr/io.h>
-#include <avr/wdt.h>
 
 unsigned long lastConnectionTime = 0;  // last time you connected to the server, in milliseconds
 byte postingInterval = 10;             // delay between updates, in seconds

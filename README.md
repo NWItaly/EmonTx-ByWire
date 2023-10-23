@@ -39,7 +39,7 @@ E' possibile cambiare le informazioni del server utilizzando Telnet.
 I dati modificabili sono:
 1. `ip=x.x.x.x`: IP del server (EmonCMS) 
 1. `port=x`: La porta su cui inviare i dati (80 default)
-1. `key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx`: Device Key (32 caratteri)
+1. `key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx`: API Key (32 caratteri)
 1. `node=x`: Numero del nodo (2 default, max 255)
 1. `init`: svuota i dati nella EEPROM
 
