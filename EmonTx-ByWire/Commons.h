@@ -1,3 +1,5 @@
+#include <avr/wdt.h>
+
 #define TEST 0             //1 = Use Serial
 #define DEBUG 0            //1 = Only 1 loop
 #define EMON_Enabled 1     //1 = Read and send consumption data
